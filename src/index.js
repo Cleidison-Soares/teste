@@ -11,5 +11,5 @@ app.get('/', (req, res) => {
 const porta = process.env.PORT || 3000
 
 app.listen(porta, () => {
-    console.log(`servidor rodando na porta ${porta}`)
+    console.log(`servidor rodando na porta ${porta}`);
 })
