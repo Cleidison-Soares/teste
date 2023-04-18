@@ -6,10 +6,6 @@ require('dotenv').config()
 app.use(express.json())
 app.use(rotas)
 
-/* app.get('/', (req, res) => {
-    return res.status(200).json('tudo certo')
-}) */
-
 const porta = process.env.PORT || 3000
 
 app.listen(porta, () => {
