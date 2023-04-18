@@ -4,7 +4,7 @@ const { listarCategorias } = require('./controlador/categorias')
 const rotas = express.Router()
 
 
-rotas.get('/usuarios', listarUsuarios)
+rotas.get('https://kind-teal-swallow-ring.cyclic.app/usuarios', listarUsuarios)
 rotas.get('/categorias', listarCategorias)
 
 module.exports = rotas

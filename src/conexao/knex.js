@@ -1,11 +1,11 @@
 const knex = require('knex')({
     client: 'pg',
     connection: {
-      host : 'localhost',
-      port : 5432,
+      host : 'containers-us-west-53.railway.app',
+      port : 6490,
       user : 'postgres',
-      password : '12345',
-      database : 'pdv'
+      password : 'mf8de6B9LpHFERLwfwWd',
+      database : 'railway'
     }
   })
 
